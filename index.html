@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed EL Refaei</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="images/video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link projects">Projects</a>
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link clients">My Clients</a>
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle-checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'm A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My Name is <span class="bio__name">Mohamed EL Refaei</span>, a
+            passionate Frontend Developer specializing in creating responsive,
+            user-centered web experiences through clean code and intuitive
+            design.
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a
+            href="Mohamed El Refaei Resume.pdf"
+            class="bio__links find-out-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Download CV <span class="bio__arrow">⬇</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/heyu.png"
+            alt="Portrait photo of Mohamed EL Refaei"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h3 class="skills__title">HTML</h3>
+            <span class="skills__years">8 Years</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">CSS</h3>
+            <span class="skills__years">8 Years</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">JavaScript</h3>
+            <span class="skills__years">8 Years</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">React</h3>
+            <span class="skills__years">4 Years</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">Redux</h3>
+            <span class="skills__years">3 Years</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">React Testing Library</h3>
+            <span class="skills__years">1 Year</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="images/project-1.jpg"
+            alt="Quran Tab Extension"
+            loading="lazy"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Quran Tab <br />
+              Extension
+            </h3>
+            <p class="projects__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+              molestiae beatae voluptatum error dolor, magni, nostrum, ibague
+              voluptatem eos magnam consequuntur commodi.
+            </p>
+            <a href="#" class="projects__link" target="_blank">Chrome link</a>
+            <span>-</span>
+            <a href="#" class="projects__link" target="_blank">Edge link</a>
+          </div>
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Quran Station <br />
+              Extension
+            </h3>
+            <p class="projects__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+              molestiae beatae voluptatum error dolor, magni, nostrum, ibague
+              voluptatem eos magnam consequuntur commodi.
+            </p>
+            <a href="#" class="projects__link" target="_blank">Chrome link</a>
+            <span>-</span>
+            <a href="#" class="projects__link" target="_blank">Edge link</a>
+          </div>
+          <img
+            class="projects__img"
+            src="images/project-2.jpg"
+            alt="Quran Station Extension"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">
+          What My <br />
+          Clients Say.
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              consequuntur inventore saepe modi hic natus et ullam commodi
+              molestias cum eaque id laborum consequatur dolores, tempora nihil
+              consectetur doloremque sit.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis cupiditate consequatur vel, sunt delectus dolorum
+              voluptates temporibus officiis nihil, cumque commodi iusto veniam
+              fugiat ipsa dolorem deserunt quidem impedit? Rerum?
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+              quaerat et porro eligendi numquam cumque rerum aliquam id,
+              accusantium, amet illo natus quod facere architecto reprehenderit
+              eveniet temporibus, iste itaque!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="contact__info">
+          <p class="contact__description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. us qui in,
+            repudiandae consectetur aspernatur magnam!
+          </p>
+          <a class="contact__email" href="mailto:example@gmail.com"
+            >example@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a href="#" class="contact__social"
+              ><img
+                src="images/brand/facebook.svg"
+                alt="facebook logo"
+                loading="lazy"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img
+                src="images/brand/twitter.svg"
+                alt="twitter logo"
+                loading="lazy"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img
+                src="images/brand/instagram.svg"
+                alt="instagram logo"
+                loading="lazy"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img
+                src="images/brand/LinkedIn.svg"
+                alt="linkedin logo"
+                loading="lazy"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img
+                src="images/brand/youtube.svg"
+                alt="youtube logo"
+                loading="lazy"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img
+                src="images/brand/github.svg"
+                alt="github logo"
+                loading="lazy"
+            /></a>
+          </div>
+        </div>
+
+        <div class="contact__form-section">
+          <h2 class="h2-heading">
+            Let's Work <br />
+            Together
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <label for="fullname" class="visually-hidden">Full Name</label>
+              <input
+                id="fullname"
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="fullname"
+                required
+              />
+              <label for="telephone" class="visually-hidden">Phone No.</label>
+              <input
+                id="telephone"
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No. (e.g. 123-456-7890)"
+                name="telephone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+            </div>
+            <label for="description" class="visually-hidden"
+              >Your Message</label
+            >
+            <textarea
+              id="description"
+              class="contact__input contact__textarea"
+              name="description"
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        &copy; 2025 Mohamed EL Refaei. All rights reserved.
+      </footer>
+    </main>
+  </body>
+</html>
